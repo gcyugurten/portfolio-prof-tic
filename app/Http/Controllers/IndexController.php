@@ -7,6 +7,7 @@ use App\Mail\Contact;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Redirect;
 
 class IndexController extends Controller
@@ -37,5 +38,23 @@ class IndexController extends Controller
 
 
 
+    }
+
+    public function blogIndex() {
+        $posts = Post::paginate(12);
+        return view('blog', compact('posts'));
+    }
+
+    public function show_article($slug) {
+        $post = Post::where('slug', $slug)->first();
+
+        if(Cookie::get($post->id) == ''){
+            Cookie::queue("$post->id", '1', 3600);
+            $post->incrementReadCount();
+        }
+
+        return view('article', compact("post"));
+
+        
     }
 }

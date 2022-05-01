@@ -6,10 +6,13 @@ use App\Models\Setting;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Storage;
-use Redirect;
+use Illuminate\Support\Facades\Redirect;
 
 class SettingsController extends Controller
 {
+
+  
+
     public function index()
     {
         $settings = Setting::find(1);
@@ -44,7 +47,6 @@ class SettingsController extends Controller
             "facebook" => $request->facebook,
             "instagram" => $request->instagram,
             "youtube" => $request->youtube,
-            "subscription_price" => $request->price,
             "description" => $request->description,
             "tags" => $request->tags,
             "logo" => $logo,

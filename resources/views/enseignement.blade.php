@@ -153,7 +153,7 @@
                             <b>1.</b> Réalisation d’un annuaire généraliste permettant la publication et la recherche sur le Web, la globalité de tous les centres d’intérêts.
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Larbi Fela</li>
                                 <li>Habet Mohamed </li>
                             </ul>
@@ -166,7 +166,7 @@
                             <b>2.</b> Système de vidéosurveillance avec la reconnaissance faciale.
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Baghdadi Zineb</li>
                                 <li>Labandji Besma</li>
                             </ul>
@@ -180,7 +180,7 @@
                             <b>3.</b> Développement d'une application mobile pour la visite personnalisée de sites culturels.
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Zamoum Hafidha </li>
                                 <li>Mohamedi Mouna</li>
                             </ul>
@@ -194,7 +194,7 @@
                             <b>4.</b> Développement d'une application mobile pour la visite personnalisée de sites culturels.
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Mostghanemi Soraya </li>
                                 <li>Meslem Yasmine </li>
                             </ul>
@@ -208,7 +208,7 @@
                             <b>5.</b> Etude des techniques de clustering pour améliorer la qualité des prédictions dans un processus de recommandation.
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Ait Kaci Ouardia </li>
                                 <li>Zarouri Imane  </li>
                             </ul>
@@ -222,7 +222,7 @@
                             <b>6.</b> Approche hybride pour l'étude de requêtes à préférences pour l'interrogation de bases de données volumineuses. 
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Hamidi Khadidja</li>
                                 <li>Tazekrit Yasmine.</li>
                             </ul>
@@ -236,7 +236,7 @@
                             <b>7.</b> Deep-Learning appliqué à la segmentation des images médicales.
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Saadi Hocine</li>
                                 <li>Saidi Yasser</li>
                             </ul>
@@ -252,7 +252,7 @@
                             sensible au contexte utilisant les techniques de machine Learning (Naïve Bayes, Random Forest, SVD).
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Bouamra Amira</li>
                                 <li>Allalou NourElhouda</li>
                             </ul>
@@ -266,7 +266,7 @@
                             <b>9.</b> Conception et réalisation d’un site Web dynamique pour la recherche d’un service e-tourisme.
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Belili Amira</li>
                                 <li>Larbi Fella</li>
                             </ul>
@@ -281,7 +281,7 @@
                             <b>10.</b> Conception et réalisation d’un espace numérique de travail pour l’université de Bouira.
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Gasmi Naima</li>
                                 <li>Boudraf Youcef</li>
                             </ul>
@@ -296,7 +296,7 @@
                             <b>11.</b> Conception et réalisation d’une application de suivi des affaires juridiques civiles (ADE).
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Ait Kaci Ouardia</li>
                                 <li>Amhir Nadjet</li>
                             </ul>
@@ -311,7 +311,7 @@
                             <b>12.</b> Conception et réalisation d’une plateforme Web collaborative pour SONATRACH.
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Naceri Sihem</li>
                                 <li>Mahdi Khadidja</li>
                             </ul>
@@ -326,7 +326,7 @@
                             <b>13.</b> Conception et réalisation d’un site Web dynamique de cours et de formations en ligne.
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Manaa Abderzak</li>
                                 <li>Kessouri Mohamed</li>
                             </ul>
@@ -341,7 +341,7 @@
                             <b>14.</b> Conception et réalisation d’une bibliothèque en ligne reposant sur un système de troc.
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Labidi Abdellatif</li>
                                 <li>Bouda Lamine</li>
                             </ul>
@@ -356,7 +356,7 @@
                             <b>15.</b> Intégration de l’e-paiement dans une plate-forme numérique de travail - School Connect (SATIM).
                         </td>
                         <td>
-                            <ul class="pl-3">
+                            <ul class="ps-3">
                                 <li>Elamouri Maroua</li>
                                 <li>Haddouche Ahcene</li>
                                 <li>Rabia Ikram</li>
@@ -391,7 +391,7 @@
                         <tr>
                             <td>Conception et réalisation d’une application de suivi des affaires juridiques civiles pour l’ADE (Algérienne des Eaux)</td>
                             <td>
-                                <ul class="pl-3">
+                                <ul class="ps-3">
                                     <li>Ait Kaci Ouardia</li>
                                     <li>Amhir Nadjet</li>
                                 </ul>
@@ -403,7 +403,7 @@
                         <tr>
                             <td>Conception et réalisation d’une plateforme Web collaborative pour <b>« SONATRACH »</b> </td>
                             <td>
-                                <ul class="pl-3">
+                                <ul class="ps-3">
                                     <li>Naceri Sihem</li>
                                     <li>Mahdi Khadidja</li>
                                 </ul>
@@ -420,7 +420,7 @@
                                 </div>
                                 </td>
                             <td>
-                                <ul class="pl-3">
+                                <ul class="ps-3">
                                     <li>Elamouri Maroua</li>
                                     <li>Haddouche Ahcene</li>
                                     <li>Rabia Ikram</li>

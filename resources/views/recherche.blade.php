@@ -194,9 +194,9 @@
                         <strong>An Improved Optimization Algorithm to Find Multiple Shortest Paths Over Large Graph</strong>
                         <p class="pt-2">
                             EDiS'2020 (Second international conference on Embedded & Distributed Systems) <br>
-                            <i class="fas fa-clock pr-2 pt-4"></i> 02 au 04 Novembre 2020 <br>
-                            <i class="fas fa-map-marker-alt pr-2"></i> l’université d’Oran. <br>
-                            <i class="fas fa-user pr-2"></i> Hayi. M. Yassine & Zahira Chouiref.
+                            <i class="fas fa-clock pe-2 pt-4"></i> 02 au 04 Novembre 2020 <br>
+                            <i class="fas fa-map-marker-alt pe-2"></i> l’université d’Oran. <br>
+                            <i class="fas fa-user pe-2"></i> Hayi. M. Yassine & Zahira Chouiref.
                         </p>
                     </li>
 
@@ -204,9 +204,9 @@
                         <strong>An Efficient Hybrid Meta-Heuristic Approach for Solving the k-Shortest Paths Problem Over Weighted Large Graphs</strong>
                         <p class="pt-2">
                             4th international conference on artificial intelligence in renewable energetic systems. <br>
-                            <i class="fas fa-map-marker-alt pr-2 pt-4"></i> IC-AIRES2020-IEEE. Tipasa <br>
-                            <i class="fas fa-clock pr-2"></i> November 2020. <br>
-                            <i class="fas fa-user pr-2"></i> Hayi. M. Yassine & Zahira Chouiref.
+                            <i class="fas fa-map-marker-alt pe-2 pt-4"></i> IC-AIRES2020-IEEE. Tipasa <br>
+                            <i class="fas fa-clock pe-2"></i> November 2020. <br>
+                            <i class="fas fa-user pe-2"></i> Hayi. M. Yassine & Zahira Chouiref.
                         </p>
                     </li>
 
@@ -214,9 +214,9 @@
                         <strong>La sélection automatique des services Web : Approche basée sur la similarité du profil contextuel et sur la théorie des ensembles flous.</strong>
                         <p class="pt-2">
                             1st International Symposium on Data Science and Computational Intelligence <br>
-                            <i class="fas fa-map-marker-alt pr-2 pt-4"></i> DSCI 2017 - Tunisia <br>
-                            <i class="fas fa-clock pr-2"></i> December 2017. <br>
-                            <i class="fas fa-user pr-2"></i> Z. Chouiref.
+                            <i class="fas fa-map-marker-alt pe-2 pt-4"></i> DSCI 2017 - Tunisia <br>
+                            <i class="fas fa-clock pe-2"></i> December 2017. <br>
+                            <i class="fas fa-user pe-2"></i> Z. Chouiref.
                         </p>
                     </li>
 
@@ -224,9 +224,9 @@
                         <strong>Weighted Fuzzy Preferences-Based Approach for Web Service Selection.</strong>
                         <p class="pt-2">
                             International Conference on Pattern Analysis and Intelligent Systems <br>
-                            <i class="fas fa-map-marker-alt pr-2 pt-4"></i> PAIS 2015 IEEE Tebessa, Algeria <br>
-                            <i class="fas fa-clock pr-2"></i> October 2015. <br>
-                            <i class="fas fa-user pr-2"></i> Z. Chouiref, et al.
+                            <i class="fas fa-map-marker-alt pe-2 pt-4"></i> PAIS 2015 IEEE Tebessa, Algeria <br>
+                            <i class="fas fa-clock pe-2"></i> October 2015. <br>
+                            <i class="fas fa-user pe-2"></i> Z. Chouiref, et al.
                         </p>
                     </li>
 
@@ -234,8 +234,8 @@
                         <strong>Making Web Services Selection More Customized A Fuzzy-Logic-Theory-Based Approach.</strong>
                         <p class="pt-2">
                             12th International Conference on Service Oriented Computing <br>
-                            <i class="fas fa-map-marker-alt pr-2"></i> ICSOC, Paris <br>
-                            <i class="fas fa-map-marker-alt pr-2"></i> November 2014 <br>
+                            <i class="fas fa-map-marker-alt pe-2"></i> ICSOC, Paris <br>
+                            <i class="fas fa-map-marker-alt pe-2"></i> November 2014 <br>
                             <i class="fas fa-user"></i> Z. Chouiref, et al.
                         </p>
                     </li>
@@ -243,8 +243,8 @@
                     <li class="pb-5">
                         <strong>Multi Matchmaking Approach for Semantic Web Services Selection based on Fuzzy Inference.</strong>
                         <p class="pt-2">
-                            <i class="fas fa-map-marker-alt pr-2 pt-4"></i> ICWE, Toulouse <br>
-                            <i class="fas fa-clock pr-2"></i> July 2014.<br>
+                            <i class="fas fa-map-marker-alt pe-2 pt-4"></i> ICWE, Toulouse <br>
+                            <i class="fas fa-clock pe-2"></i> July 2014.<br>
                             <i class="fas fa-user"></i> Z. Chouiref, et al.
                         </p>
                     </li>
@@ -252,8 +252,8 @@
                     <li class="pb-5">
                         <strong>Enhancing Semantic Web Services Discovery Using Similarity of Contextual Profile.</strong>
                         <p class="pt-2">
-                            <i class="fas fa-map-marker-alt pr-2"></i> ICIW, Italie <br>
-                            <i class="fas fa-map-marker-alt pr-2"></i> July 2013 <br>
+                            <i class="fas fa-map-marker-alt pe-2"></i> ICIW, Italie <br>
+                            <i class="fas fa-map-marker-alt pe-2"></i> July 2013 <br>
                             <i class="fas fa-user"></i> Z. Chouiref, et al.
 
                         </p>
@@ -262,8 +262,8 @@
                     <li class="pb-5">
                         <strong>A New Similarity Measure to Improve the Discovery of Semantic Web Services Based on Profile.</strong>
                         <p class="pt-2">
-                            <i class="fas fa-map-marker-alt pr-2"></i> ICWIT2013, Tunisia <br>
-                            <i class="fas fa-map-marker-alt pr-2"></i> May 2013 <br>
+                            <i class="fas fa-map-marker-alt pe-2"></i> ICWIT2013, Tunisia <br>
+                            <i class="fas fa-map-marker-alt pe-2"></i> May 2013 <br>
                             <i class="fas fa-user"></i> Z. Chouiref, et al.
                         </p>
                     </li>
@@ -272,8 +272,8 @@
                         <strong>Composition of Semantic Web Services: Functions based Approach.</strong>
                         <p class="pt-2">
                             International Conference on Applied Informatics <br>
-                            <i class="fas fa-map-marker-alt pr-2"></i> ICAI09 IEEE, BBA- Algeria <br>
-                            <i class="fas fa-map-marker-alt pr-2"></i> November 200.<br>
+                            <i class="fas fa-map-marker-alt pe-2"></i> ICAI09 IEEE, BBA- Algeria <br>
+                            <i class="fas fa-map-marker-alt pe-2"></i> November 200.<br>
                             <i class="fas fa-user"></i> Z. Chouiref, et al.
                         </p>
                     </li>
@@ -282,8 +282,8 @@
                         <strong>Un Système de Programmation Fonctionnelle pour la Composition des Services Web.</strong>
                         <p class="pt-2">
                             Workshop international sur les Services Web dans les systèmes d’informations WWS’09<br>
-                            <i class="fas fa-map-marker-alt pr-2"></i>  CERIST Algeria <br>
-                            <i class="fas fa-map-marker-alt pr-2"></i> 2009.<br>
+                            <i class="fas fa-map-marker-alt pe-2"></i>  CERIST Algeria <br>
+                            <i class="fas fa-map-marker-alt pe-2"></i> 2009.<br>
                             <i class="fas fa-user"></i> Z. Chouiref, et al.
                         </p>
                     </li>

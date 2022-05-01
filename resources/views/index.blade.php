@@ -66,11 +66,11 @@
                     <div class="career pt-4">
 
                         <div class="item">
-                            <div class="float-left">
+                            <div class="float-start">
                                 <span class="circle"></span>
                                 <div class="item-devider"></div>
                             </div>
-                            <div class="career-content pl-5" data-aos="fade-down">
+                            <div class="career-content ps-5" data-aos="fade-down">
                                 <div class="title">Enseignante vacataire à l’université Mh’amed Bouguera-Boumerdes, Algérie</div>
                                 <div class="date"><i class="far fa-clock"></i> 2005 > 2009</div>
                             </div>
@@ -79,11 +79,11 @@
                         
 
                         <div class="item">
-                            <div class="float-left">
+                            <div class="float-start">
                                 <span class="circle"></span>
                                 <div class="item-devider"></div>
                             </div>
-                            <div class="career-content pl-5" data-aos="fade-up">
+                            <div class="career-content ps-5" data-aos="fade-up">
                                 <div class="title">Maitre-assistant à l’université de Bouira, Algérie</div>
                                 <div class="date"><i class="far fa-clock"></i> 2009 > 2017</div>
                             </div>
@@ -94,11 +94,11 @@
                        
 
                         <div class="item">
-                            <div class="float-left">
+                            <div class="float-start">
                                 <span class="circle"></span>
                                 <div class="item-devider"></div>
                             </div>
-                            <div class="career-content pl-5" data-aos="fade-down">
+                            <div class="career-content ps-5" data-aos="fade-down">
                                 <div class="title">Maitre de conférences à l’université de Bouira, Algérie</div>
                                 <p class="description">
                                     Enseignante au département d’informatique ; Membre de laboratoire LIMPAF.
@@ -173,8 +173,8 @@
     <section class="articles py-5">
         <div class="container pb-4">
             <div class="pb-4 pt-5">
-                <h1 class="special-heading float-left" data-aos="fade-left">Quelque <span>articles</span> écrit par moi :</h1>
-                <a data-aos="fade-right" href="" style="font-size: 18px; font-weight: bold" class="float-right d-inline-block">Voir plus d'articles ..</a> 
+                <h1 class="special-heading float-start" data-aos="fade-left">Quelque <span>articles</span> écrit par moi :</h1>
+                <a data-aos="fade-right" href="{{ route('blog') }}" style="font-size: 18px; font-weight: bold" class="float-end d-inline-block">Voir plus d'articles ..</a> 
                 <div class="clearfix"></div>
 
             </div>

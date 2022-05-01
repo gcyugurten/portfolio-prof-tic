@@ -32,23 +32,23 @@
                     <div class="career pt-4">
 
                         <div class="item">
-                            <div class="float-left">
+                            <div class="float-start">
                                 <span class="circle"></span>
                                 <div class="item-devider"></div>
                             </div>
-                            <div class="career-content pl-5">
+                            <div class="career-content ps-5">
                                 <div class="title">Baccalauréat Série Sciences de la Nature et de la Vie. Lycée AbdErahmane Mira- Bouira.</div>
                                 <div class="date"><i class="far fa-clock"></i> 2000</div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="float-left">
+                            <div class="float-start">
                                 <span class="circle"></span>
                                 <div class="item-devider"></div>    
 
                             </div>
-                            <div class="career-content pl-5">
+                            <div class="career-content ps-5">
                                 <div class="title">Ingénieur d’État en informatique, de l’université M’HammedBougara de Boumerdes /UMBB.</div>
                                 <p class="description">
                                     <b>Option : </b>Informatique Industrielle. <br>
@@ -61,11 +61,11 @@
                         </div>
 
                         <div class="item">
-                            <div class="float-left">
+                            <div class="float-start">
                                 <span class="circle"></span>
                                 <div class="item-devider"></div>
                             </div>
-                            <div class="career-content pl-5">
+                            <div class="career-content ps-5">
                                 <div class="title">Magister en Informatique de l’Université M’HammedBougara de Boumerdes /UMBB.</div>
                                 <p class="description">
                                     <b>Option : </b>Spécification Logiciels et Traitement de l’information. <br>
@@ -78,11 +78,11 @@
 
 
                         <div class="item">
-                            <div class="float-left">
+                            <div class="float-start">
                                 <span class="circle"></span>
                                 <div class="item-devider"></div>
                             </div>
-                            <div class="career-content pl-5">
+                            <div class="career-content ps-5">
                                 <div class="title">Doctorat Ès science de l’Université des Sciences et de Technologie Houari Boumediene (USTHB)- Alger-Algérie. </div>
                                 <p class="description">
                                     <b> Thème : </b>Framework pour la sélection automatique des services Web : Approche basée sur la similarité du profil contextuel. <br>
@@ -118,11 +118,11 @@
                 <div class="career pt-4">
 
                     <div class="item">
-                        <div class="float-left">
+                        <div class="float-start">
                             <span class="circle"></span>
                             <div class="item-devider"></div>
                         </div>
-                        <div class="career-content pl-5">
+                        <div class="career-content ps-5">
                             <div class="title">Stage de fin d’étude</div>
                             <p class="description">Installation et administration de réseaux Microsoft 2003 Server,</p>
                             <div class="date"><i class="far fa-clock"></i> Janvier - Juin 2005</div>
@@ -132,11 +132,11 @@
 
 
                     <div class="item">
-                        <div class="float-left">
+                        <div class="float-start">
                             <span class="circle"></span>
                             <div class="item-devider"></div>
                         </div>
-                        <div class="career-content pl-5">
+                        <div class="career-content ps-5">
                             <div class="title">Les réseaux Informatiques </div>
                             <p class="description">
                                 Attestations de réussite à la formation sur les réseaux Informatiques : <br>

@@ -1,0 +1,9 @@
+.login {
+  max-width: 450px;
+  margin: auto;
+}
+
+.login .form-control {
+  padding: 25px 10px !important;
+}
+/*# sourceMappingURL=login.css.map */

@@ -17,7 +17,28 @@
 <body>
     
 
-    @include('elearning.partials.upper-nav')
+    <div class="upper-nav">
+        <div class="container">
+            <a style="color: inherit" class="navbar-brand float-left" href="{{ route('index-page') }}">
+                @if (\App\Models\Setting::find(1)->logo)
+                    <img src="{{ asset('storage/'. \App\Models\Setting::find(1)->logo) }}" alt="">
+                @else 
+                    {{ env('APP_NAME') }}
+                @endif
+                
+            </a>
+            <div class="float-right">
+                <form action="{{ route('logout') }}" method="POST" class="d-inline-block logout">
+                    @csrf
+                    <button type="submit"><i class="fas fa-sign-out-alt"></i> Logout</button>
+                    
+                </form>
+    
+    
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
 
     <div class="row main-row" style="min-height: calc(100vh - 75px)">
         <div class="col-md-3">
@@ -31,7 +52,7 @@
                             </div>
                             <div class="user">
                                 <div class="name">
-                                    {{ "@".strtolower(str_replace(' ', "", auth()->user()->fullName )) }}    
+                                    Zahira Ch
                                 </div>
                                 <div class="admin d-block">Administrator</div>
                             </div>
@@ -46,22 +67,11 @@
         
                 <nav class="side-nav pt-3">
                     <ul>
-                        <li class="{{ Request::routeIs('admin.dashboard')  ? "active" : "" }}">
-                            <a href="{{ route('admin.dashboard') }}">
-                                <i class="fas fa-chart-line"></i>
-                                Tableau de bord
-                            </a>
-                        </li>
-                        <li class="{{ Request::routeIs('admin.users') ? "active" : "" }}"> 
-                            <a href="{{ route('admin.users') }}">
-                                <i class="fas fa-users"></i>
-                                Utilisateurs
-                            </a>
-                        </li>
-                        <li class="{{ Request::routeIs('admin.groups') ? "active" : "" }}"> 
-                            <a href="{{ route('admin.groups') }}">
-                                <i class="fas fa-cube"></i>
-                                Groupes 
+                        
+                        <li class="{{ Request::routeIs('admin.blog.index') ? "active" : "" }}">
+                            <a href="{{ route('admin.blog.index') }}">
+                                <i class="fas fa-pen"></i>
+                                Blog
                             </a>
                         </li>
                         
@@ -72,12 +82,7 @@
                             </a>
                         </li>
 
-                        <li class="{{ Request::routeIs('admin.blog.index') ? "active" : "" }}">
-                            <a href="{{ route('admin.blog.index') }}">
-                                <i class="fas fa-pen"></i>
-                                Blog
-                            </a>
-                        </li>
+                        
 
                     </ul>
                 </nav>

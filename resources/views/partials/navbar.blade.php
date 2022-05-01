@@ -31,7 +31,7 @@
                 
                 <li class="nav-item">
                     <div class="nav-buttons d-sm-none d-block">
-                        <a href="{{ route('login') }}" class="main-btn">Connexion</a>
+                        <a href="https://docs.google.com/document/d/1zh10x42n2BlTW0Zl5F4yTAC2e5MoyG4B/edit?usp=sharing&ouid=102943991836178139352&rtpof=true&sd=true" target="_blank" class="main-btn">Télécharger le CV</a>
                     </div>
                 </li>
                 
@@ -39,7 +39,7 @@
         
         </div>
         <div class="float-right nav-buttons d-md-block d-none">
-            <a href="{{ route('login') }}" class="main-btn">Connexion</a>
+            <a href="https://docs.google.com/document/d/1zh10x42n2BlTW0Zl5F4yTAC2e5MoyG4B/edit?usp=sharing&ouid=102943991836178139352&rtpof=true&sd=true" target="_blank" class="main-btn">Télécharger le CV</a>
         </div>
         <div class="clearfix d-md-block d-none"></div>
     </div>

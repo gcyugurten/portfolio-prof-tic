@@ -25,7 +25,7 @@
                     <i class="fas fa-eye pr-2"></i> 
                     <strong>{{ $post->seens_count }}</strong> <br>
                     <i class="fas fa-clock pr-2"></i> Crée {{ \Carbon\Carbon::parse($post->created_at)->diffForHumans() }} <br>
-                    Dérniére modification : {{ \Carbon\Carbon::parse($post->published_at)->diffForHumans() }}
+                    Dérniére modification : {{ \Carbon\Carbon::parse($post->updated_at)->diffForHumans() }}
                 </p>
                 <a href="{{ route('admin.blog.edit', ["id" => $post->id]) }}" class="pr-3 btn btn-info btn-sm">edit</a>
 

@@ -7,43 +7,34 @@
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="login py-5">
-                    <div class="special-heading text-center">Login</div>
-                    <div class="sub-heading pb-4 text-center" style="font-family: 'Tahoma';">As an administrator</div>
-                    <form action="{{ route('login') }}" method="POST">
+                    <div class="special-heading text-center">Connexion</div>
+                    <div class="sub-heading pb-4 text-center" style="font-family: 'Tahoma';">Admin</div>
+                    @if (!$errors->isEmpty())
+                        <div class="alert alert-danger p-3">
+                            @foreach ($errors->all() as $error)
+                                <div style="list-style: none">{{ $error }}</div>
+                            @endforeach
+                        </div>
+                    @endif
+                    <form action="{{ route('admin.login') }}" method="POST">
 
                         @csrf
 
                         <div class="form-group">
-                            <input id="email" type="email" placeholder="Your Email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-        
-                            @error('email')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
+                            <input id="email" type="email" placeholder="Email" class="form-control mb-3" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
                         </div>
 
                         <div class="form-group">
-                            <input id="password" placeholder="Your Password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
-        
-                            @error('password')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
+                            <input id="password" placeholder="Mot de passe" type="password" class="form-control" name="password" required autocomplete="current-password">
                         </div>
                         
 
                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary">
-                                {{ __('Login') }}
+                            <button type="submit" class="btn btn-primary mt-4 c-white">
+                                Se connecter
                             </button>
         
-                            @if (Route::has('password.request'))
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    {{ __('Forgot Your Password?') }}
-                                </a>
-                            @endif
+                            
                         </div>
 
                     </form>
