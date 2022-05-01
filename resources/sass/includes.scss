@@ -1,0 +1,131 @@
+
+
+
+// ------------------------------- start navbar -------------- //
+.navbar {
+    background: #fff;
+    @media(min-width: 990px) {
+        height: 75px;
+    }
+    .navbar-brand {
+        img {
+            width: 100px;
+        }
+        padding-right: 30px;
+        font-family: "Lobster Two";
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .nav-item {
+        padding: 15px 10px;
+        transition: .2s ease-in-out;
+        border-bottom: 3px solid transparent;
+        .nav-link {
+            transition: .2s ease-in-out;
+        }
+        &.active {
+            .nav-link {
+                color: $mainColor;
+                font-weight: bold;
+            }
+            @media(min-width: 900px) {
+                border-bottom: 3px solid $mainColor;
+            }
+        }
+        &:hover {
+            .nav-link {
+                color: $mainColor;
+            }
+            @media(min-width: 900px) {
+                border-bottom: 3px solid $mainColor;
+            }
+        }
+    }
+}  
+@media(min-width: 770px) {
+    .navbar {
+        padding: 0 !important;
+    }
+    
+}
+// ------------------------------- end navbar -------------- //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ------------------------------- start footer -------------- //
+footer {
+    background-color: #f4f4f4;
+    padding-top: 3rem;
+    .links {
+        ul li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 0 15px;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: rgb(124, 124, 124);
+            a {
+                color: inherit;
+            }
+        }
+    }
+    .social {
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+        ul li {
+            display: inline-block;
+            padding: 0 15px;
+            a {
+                color: inherit;
+                i {
+                    font-size: 35px;
+                    color: $mainColor;
+                    transition: .3s ease-in-out;
+                    &:hover {
+                        transform: translateY(-5px);
+                    }
+                }
+            }
+        }
+    }
+    .rights {
+        font-size: 14px;
+    }
+}
+// ------------------------------- end footer -------------- //
+
+
+
+
+
+
+
+

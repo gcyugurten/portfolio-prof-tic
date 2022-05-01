@@ -1,0 +1,59 @@
+
+
+.client-path {
+    border-bottom: 1px solid #999;
+    a {
+        color: rgb(145, 145, 145);
+        font-size: 14px;
+        font-weight: bold;
+        padding: 0 10px;
+    }
+}
+
+
+
+.special-heading {
+    font-size: 28px;
+}
+
+
+table {
+    tr:first-child {
+        // background-color: rgb(68, 68, 68);
+        background-color: rgb(80, 80, 80);
+        color: #fff;
+        th {
+            color: #fff;
+            font-size: 13px; 
+            font-family: 'Nunito';
+        }
+    }
+    tr:not(:first-child) {
+        background-color: rgb(255, 255, 255);
+        
+    }
+    
+    td {
+        color: rgb(133, 133, 133);
+        font-size: 14px;
+        font-weight: 500;    
+    }
+    
+
+    .avatar img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+

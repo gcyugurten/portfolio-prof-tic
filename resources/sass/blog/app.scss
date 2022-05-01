@@ -1,0 +1,64 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+
+// Variables and Personal Framework
+@import '../_variables.scss';
+@import "../includes.scss";
+
+
+
+
+.articles {
+    .article {
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 15px !important;
+        .summary {
+            .title {
+                padding-top: 5px;
+                font-size: 20px;
+                font-weight: bold;
+                a {
+                    font-family: 'Roboto' !important;
+                    text-decoration: none;
+                    transition: .2s ease-in-out;
+                    color: initial;
+                    &:hover {
+                        color: $mainColor;
+                    }
+                }
+            }
+            .author-and-date {
+                i {
+                    color: rgb(153, 153, 153);
+                    padding-right: 5px;
+                    font-size: 15px;
+                }
+                .author {
+                    padding-right: 15px;
+                    color: rgb(149, 149, 149);
+                    font-weight: bold;
+                    font-size: 13px;
+                    font-family: 'Montserrat' !important;
+
+                }
+                .date {
+                    color: rgb(144, 144, 144);
+                    font-size: 13px;   
+                }
+                
+            }
+            p {
+                color: rgb(168, 168, 168);
+                font-size: 15px;
+            }
+        }
+    }
+}

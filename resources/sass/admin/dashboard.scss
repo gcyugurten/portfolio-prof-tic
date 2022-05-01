@@ -1,0 +1,52 @@
+
+// ------------------- start statistics box --------------
+.stats {
+    .col-md-3 {
+        &:first-child {
+            padding-left: 15px !important;            
+
+        }
+        &:last-child {
+            padding-right: 15px !important;
+
+        }
+        padding-left: 2px;            
+        padding-right: 2px;
+
+    }
+    .stat-box {
+        padding: 35px 10px;
+        border-radius: 5px;
+        box-shadow: 0 6px 10px rgba(0, 0, 0 , .1);
+        &.bg-clr-1 {
+            background-color: #13aaf9 !important; 
+        }
+        &.bg-clr-2 {
+            background-color: #968cec !important;
+        }
+        &.bg-clr-3 {
+            background-color: #f5a1e2 !important;
+        }
+        &.bg-clr-4 {
+            background-color: #f8bb90 !important;
+        }
+        i {
+            font-size: 48px;
+            color: #fff;
+        }
+        .value {
+            color: #fff;
+            font-size: 22px;
+            font-family: "Open Sans";
+            font-weight: bold;
+        }
+        .txt {
+            padding-top: 15px;
+            color: #eee;
+            font-size: 11px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}
+// ------------------- end statistics box --------------

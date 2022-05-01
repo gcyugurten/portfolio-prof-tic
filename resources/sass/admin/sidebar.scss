@@ -1,0 +1,87 @@
+
+.main-row {
+    background-color: #fafafa;
+    margin: 0 !important;
+    .main-sidebar {
+        height: 100% !important;
+        background-color: #fff;
+        .avatar {
+            .img img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+            .user {
+                .name {
+                    font-weight: bold;
+                    font-family: "Rubik";
+                }
+                .admin {
+                    font-size: 13px;
+                    font-family: "Montserrat";
+                }
+            }
+            
+        }
+        .side-nav {
+            > ul {
+                padding: 0 !important;
+                > li {
+                    border-radius: 5px;
+                    list-style: none;
+                    margin: 5px 0;
+                    position: relative;
+                    overflow: hidden;
+                    border-bottom: 1px solid #ccc;
+                    padding: 10px 15px;
+                    > a {
+                        transition: .4s ease-in-out;
+                        text-decoration: none;
+                        color: rgb(119, 119, 119) !important;
+                        display: block;
+                        font-family: "Roboto";
+
+                        &:hover {
+                            padding-left: 7px;
+    
+                        }
+                        i {
+                            padding-right: 10px;
+                        }
+                    }
+                    &.active {
+                        // background-color: #4b4a4a;
+                        background-color: $mainColor;
+                        a { color: #fff !important; }
+                    }
+                    .sub-menu {
+                        padding-left: 50px;
+                        padding-top: 15px;
+                        display: none;
+                        li {
+                            list-style: none;
+                            padding: 5px 0;
+                            a {
+                                color: rgb(119, 119, 119) !important;
+                            }
+                        }
+                    }
+                }
+            }
+           
+          
+        }
+    }
+    .page-content {
+        min-height: calc(100vh - 70px);   
+        padding-bottom: 20px;  
+    }
+
+
+    &> .col-md-3:first-child {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    
+    }   
+    
+}

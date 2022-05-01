@@ -1,0 +1,193 @@
+
+// Vide Straming
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: $mainColor;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+}
+
+
+
+
+
+#video {
+  position: relative;
+  video {
+    height: 400px;
+  }
+	div:not(:last-child) {
+		display: none !important;
+	}
+  button {
+    position: absolute;
+    text-align: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+#wait {
+	display: none;
+}
+
+
+
+
+
+
+// Conversation Chat
+.conversation{
+	height: 300px;
+	overflow: auto;
+	padding-bottom: 0;
+	position: relative;
+	.conversation-header {
+		background: #176ab8;
+		padding: 15px;
+		top: 0;
+		position: sticky;
+		left: 0;
+		width: 100%;
+		color: #fff;
+		font-weight: bold;
+		font-family: "Roboto";
+		font-size: 13px
+	}
+}
+.messages{
+	@extend .clearfix;
+	margin-bottom: 10px;
+	padding: 0 10px;
+	&--received{
+		.message{
+			float: left;
+			background-color: #ddd;
+			border-bottom-left-radius: 5px;
+			border-top-left-radius: 5px;
+			&:first-child{
+				border-top-left-radius: 15px;
+			}
+			&:last-child{
+				border-bottom-left-radius: 15px;
+			}
+		}
+	}
+	&--sent{
+		.message{
+			float: right;
+			background-color: #1998e6;
+			color: #fff;
+			border-bottom-right-radius: 5px;
+			border-top-right-radius: 5px;
+			&:first-child{
+				border-top-right-radius: 15px;
+			}
+			&:last-child{
+				border-bottom-right-radius: 15px;
+			}
+		}
+	}
+}
+.message{
+	display: inline-block;
+	margin-bottom: 2px;
+	clear: both;
+	padding: 7px 13px;
+	font-size: 12px;
+	border-radius: 15px;
+	line-height: 1.4;
+	
+}
+
+.username {
+    font-weight: 600;
+    padding: 5px 0;
+    font-size: 12px;
+}
+.text-bar{
+	height: 50px;
+	border-top: 1px solid #ccc;
+	
+	&__field{
+		float: left;
+		width: calc(100% - 50px);
+		height: 100%;
+		
+		input{
+			width: 100%;
+			height: 100%;
+			padding: 0 20px;
+			border: none;
+			position: relative;
+			vertical-align: middle;
+			font-size: 14px;
+			outline: none;
+		}
+	}
+	.send {
+		background: none;
+		transform: translateY(-5px);
+		border: none;
+		color: $mainColor;
+	}
+
+
+}
+
+
+.anim-wiggle{
+	animation: wiggle .2s ease infinite;
+}
+.anim-wiggle-2{
+	animation: wiggle2 .2s ease infinite;
+}
+
+
+
+@keyframes wiggle {
+  0% {transform: rotateZ(5deg);}
+  50% {transform: rotateZ(-5deg);}
+  100% {transform: rotateZ(5deg);}
+}
+@keyframes wiggle2 {
+  0% {transform: rotateZ(10deg);}
+  50% {transform: rotateZ(-10deg);}
+  100% {transform: rotateZ(10deg);}
+}
+
+
+
+
+

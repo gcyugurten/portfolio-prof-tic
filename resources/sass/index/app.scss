@@ -1,0 +1,518 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+
+// Variables and Personal Framework
+@import '../_variables.scss';
+@import "../includes.scss";
+
+
+
+
+
+
+
+
+
+// ------------------------------- start login -------------- //
+.login-form {
+    background-color: #fff;
+    // box-shadow: 1px 2px 17px $mainColor;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+
+    @media(max-width: 510px) {
+        width: 98% !important;
+    }
+
+    &:not(.register) {
+        width: 400px;
+        
+    }
+    &.register {
+        width: 500px;
+        
+    }
+  
+    
+    .form-group .form-control {
+        padding: 1.5rem 15px; 
+    }
+    .password-box {
+        position: relative;
+        span.toggle-password {
+            i {
+                position: absolute;
+                transform: translateY(-35px);
+                right: 15px;
+                font-size: 20px;
+                color: rgb(80, 80, 80);
+                cursor: pointer;
+            }
+        }
+    }
+}
+// ------------------------------- end login -------------- //
+
+
+
+
+// ------------------------------- start main header -------------- //
+.main-header {
+    height: 100vh;
+    background: #f4f4f4;
+    overflow-x: hidden;
+    background-image: url('/imgs/programming.webp');
+    background-size: cover;
+    .overlay {
+        // height: calc(100vh - 75px);
+        background-color: rgba(255,255,255,.9);
+        backdrop-filter: blur(2px);
+    }
+    
+    .header-content {
+        .header-quot {
+            @extend .special-heading;
+            line-height: 1.6;   
+            font-size: 38px;
+        }
+        a i {
+            font-size: 20px;
+            animation: animateArrowButton 1s infinite;
+        }
+        .header-img img {
+            height: calc(100vh - 75px);
+        }
+    }
+}
+@keyframes animateArrowButton {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        padding-left: 10px;
+        opacity: 0;
+    }
+}
+// ------------------------------- end main header -------------- //
+
+
+
+
+
+
+
+
+
+
+
+.career {
+    .item {
+        clear: both;
+        // padding: 15px 0;
+        .circle {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: $mainColor;
+            display: inline-block;
+        }
+        .career-content {
+            // position: absolute;
+            
+            .title {
+                font-size: 18px;
+                font-family: "Ubuntu", sans-serif;
+                font-weight: bold;
+            }
+            .description {
+                font-size: 16px;
+                padding-top: 7px;
+                font-style: italic;
+                color: rgb(129, 129, 129);
+            }
+            .date {
+                color: rgb(143, 143, 143);
+                font-size: 16px;
+                margin: 10px 0;
+            }
+        }
+    }
+    .item-devider {
+        min-height: 100px;
+        width: 2px;
+        background-color: $mainColor;
+        margin-left: 13px;
+    }
+}
+
+
+
+
+
+
+.skills {
+    background-image: url('/imgs/programming.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    .overlay {
+        background: rgba(0,0,0,.65);
+        h1 {
+            color: #fff;
+            span {
+                color: rgb(247, 62, 62);
+            }
+        }
+    }
+    .skill-box {
+        background: rgba(255,255,255,.2);
+        backdrop-filter: blur(2px);
+        border: 1px solid #c2c2c2;
+        border-radius: 30px;
+        padding: 15px;
+        margin-top: 30px;
+        @media(max-width: 720px) {
+            margin-top: 45px;
+        }
+        .title {
+            background-color: #fff;
+            padding: 5px;
+            font-size: 16px;
+            display: inline-block;
+            text-align: center;
+            margin: auto;
+            transform: translateY(-32px);
+            font-weight: bold;
+            border-radius: 10px;
+        }
+        img {
+            width: 70px;
+        }
+    }
+}
+
+
+
+.detailed-skills .box {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 30px;
+    margin: 10px 0;
+    ul {
+        padding: 0 !important;
+        li {
+            list-style: none;
+            padding: 4px;
+        }
+
+    }
+}
+
+
+
+.publications {
+    
+    .box-content { 
+        display: none; 
+    }
+    .box {
+
+        .special-heading { 
+            padding-bottom: 30px; 
+            font-family: 'Ubuntu'; 
+            font-size: 20px;
+            font-weight: normal;
+            position: relative;
+            i {
+                position: absolute;
+                bottom: 2px;
+                font-size: 30px;
+                color: rgb(169, 169, 169);
+                right: 5px;
+            }
+            
+        }
+
+        .item { padding-bottom: 7px; }
+
+        cursor: pointer;
+        transition: .3s ease-in-out;
+        &:hover {
+            border: 1px solid $mainColor;
+        }
+        
+        background-color: #fff;
+        margin-bottom: 15px;
+        padding: 30px 20px;
+        border: 1px solid rgb(212, 212, 212);
+        border-radius: 30px;
+        .title {
+            float: left;
+            font-weight: bold;
+            padding-right: 7px;
+        }
+    }
+}
+
+
+.author-and-date {
+    i {
+        color: rgb(153, 153, 153);
+        padding-right: 5px;
+        font-size: 15px;
+    }
+    .author {
+        padding-right: 15px;
+        color: rgb(149, 149, 149);
+        font-weight: bold;
+        font-size: 13px;
+        font-family: 'Montserrat' !important;
+
+    }
+    .date {
+        color: rgb(144, 144, 144);
+        font-size: 13px;   
+    }
+    
+}
+.articles {
+    background-color: #f4f4f4;
+    .article {
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 15px !important;
+        img {
+            border-radius: 15px;
+        }
+        .summary {
+            .title {
+                padding: 10px 0;
+                font-size: 20px;
+                font-weight: bold;
+                a {
+                    font-family: 'Roboto' !important;
+                    text-decoration: none;
+                    transition: .2s ease-in-out;
+                    color: initial;
+                    &:hover {
+                        color: $mainColor;
+                    }
+                }
+            }
+            
+            p {
+                color: rgb(168, 168, 168);
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+
+
+
+.features .feature-item {
+    padding: 20px 0;
+    .icon {
+        float: left;
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+        background-color: rgb(22, 168, 59);
+        line-height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        i {
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+    .text {
+        font-size: 18px;
+        font-weight: bold;
+        transform: translateY(5px);
+        color: rgb(145, 145, 145);
+        &.last {
+            font-size: 23px;
+            // color: $secondColor;
+            strong {
+                color: $mainColor !important;
+            }
+
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+.contact {
+    background-color: #f4f4f4;
+    .form {
+        position: relative;
+        .input{
+            width: 100%;
+            margin: 15px 0;
+            border:none;
+            background:none;
+            outline: none;
+            border-bottom: 1px solid #333;
+            padding: 10px;
+        }
+        textarea{
+            width: 100%;
+            height: 200px;
+            border-radius: 20px;
+            padding: 20px;
+            outline: none;
+            background: none;
+        }
+        .form-group{
+            position: relative;
+        }
+        .form-group span::before{
+            content: attr(data-placeholder);
+            top: 50%;
+            position: absolute;
+            transform: translateY(-50%);
+            transition: .5s;
+            z-index: -1;
+            padding: 10px;
+            color: #9e9083;
+            display: block;
+        }
+        .form-group .focus + span::before{
+            top: 15%;
+            position: absolute;
+        }
+        .form-group .focus + span::after{
+            width: 100%;
+        }
+        
+        
+    }
+    map iframe {
+        border-radius: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 770px) {
+    .navbar .nav-item {
+        padding: 5px !important;
+    }
+    .navbar .nav-item:hover {
+        border-color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Groups page
+
+.groups {
+    .group-box {
+        border: 1px solid #ccc;
+        margin: 10px 0;
+        border-radius: 30px;
+        text-align: center;
+        table {
+            font-size: 13px;
+        }
+        .special-heading {
+            font-size: 25px;
+            padding-bottom: 15px;
+        }
+        .img {
+            margin: 3rem auto;
+            text-align: center;
+            width: 150px;
+            height: 150px;
+            background-color: rgb(165, 165, 165);
+            border-radius: 50%;
+            line-height: 150px;
+            color: #fff;
+            font-size: 45px;
+            font-weight: bold;
+        } 
+        .main-btn {
+            margin-top: 15px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.join-group {
+    ul.modules{
+        padding:2rem 0;
+        li {
+            list-style: none;
+            i {
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                margin: 5px 0;
+                color: rgb(100, 177, 23);
+                font-size: 22px;
+                margin-right: 8px;
+                border-radius: 50%;
+                background: #e6e6e6;
+            }
+            color: rgb(151, 149, 149);
+            font-size: 14px;
+            font-weight: bold;
+        }
+    } 
+}
+
+
+
+
+
+
+
+
+

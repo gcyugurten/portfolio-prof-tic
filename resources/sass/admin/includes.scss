@@ -1,0 +1,194 @@
+.special-heading {
+    font-size: 28px;
+}
+
+
+
+
+
+@import "sidebar.scss";
+
+// ----
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+// ---------------------------- statistics tables ---------
+table {
+    tr:first-child {
+        // background-color: rgb(68, 68, 68);
+        background-color: $mainColor;
+        th {
+            color: #fff;
+            font-size: 13px; 
+            font-family: 'Nunito';
+        }
+    }
+    tr:not(:first-child) {
+        background-color: rgb(255, 255, 255);
+        
+    }
+    
+    td {
+        color: rgb(133, 133, 133);
+        font-size: 14px;
+        font-weight: 500;    
+    }
+    .edit a i {
+        font-size: 13px ;
+    }
+
+    .avatar img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .price {
+        font-size: 15px;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .group {
+        background-color: $mainColor;
+        padding: 2px 8px;
+        display: inline-block;
+        color: #fff;
+        border-radius: 2px;
+    }
+    .status {
+        &.success {
+            color: rgb(38, 189, 38);
+            font-weight: bold;
+            font-size: 15px;
+        }
+        &.danger {
+            color: rgb(233, 25, 70);
+            font-weight: bold;
+            font-size: 15px;
+        }
+    }
+}
+// ------------------------- statistics table ------------
+
+
+
+
+
+
+.item-shadowed {
+    box-shadow: 1px -1px 9px rgb(216, 216, 216);
+    padding: 25px;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+//--------------- start popup ----------------
+
+
+.popup {
+    padding: 25px;
+    position: fixed;
+    z-index: 999999999 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 800px;
+    box-shadow: 1px -1px 19px #ccc;
+    .close { cursor: pointer; }   
+    display: none;
+    border-radius: 20px;
+}
+.popup-bg {
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    z-index: 9999999 !important;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+@media(max-width: 770px) {
+    .popup {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+//-------------------end popup ---------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+.import-img {
+    
+    display: block;
+    
+    .add-img {
+        height: 200px;
+        border-radius: 5px;
+        background-color: rgb(226, 226, 226);
+        position: relative;
+        cursor: pointer;
+        i {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+        }
+    }
+    img {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 770px) {
+    .main-sidebar {
+        height: initial !important;
+        .side-nav-toggler {
+            line-height: 85px;
+            font-size: 21px;
+        }
+        nav.side-nav {
+            display: none;
+        }
+    }
+
+}

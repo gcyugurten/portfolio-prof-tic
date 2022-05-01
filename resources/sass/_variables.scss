@@ -1,0 +1,163 @@
+// Body
+$body-bg: #fff;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+$mainColor: rgb(184, 23, 23);
+
+p, p * {
+    line-height: 2.2;
+    color: rgb(163, 163, 163);
+    font-size: 18px;
+}
+
+
+.special-heading {
+    font-size: 37px;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+    span {
+        color: $mainColor;
+    }
+}
+
+%main-button {
+    display: inline-block;
+    padding: 17px 35px;
+    border: 2px solid $mainColor;
+    border-radius: 30px;
+    text-decoration: none !important;
+    
+    font-weight: bold;
+}
+.main-btn {
+    @extend %main-button;
+    color: #fff;
+    background-color: $mainColor;
+    &:hover {
+        color: #fff;
+    }
+
+}
+.main-btn-transparent {
+    @extend %main-button;
+    color: $mainColor;
+    background-color: transparent;
+    &:hover {
+        color: $mainColor;
+    }
+}
+
+
+p.p-content {
+    line-height: 1.9;
+    // text-align: center;
+    font-size: 22px;
+    color: rgb(131, 130, 130);
+}
+
+.img-radius {
+    border-radius: 30px;
+}
+
+
+
+
+
+
+.seamless-bg {
+    background: url('/imgs/programming.webp');
+}
+
+
+.seamless-overlay {
+    background-color: rgba($color: #000, $alpha: .4);
+    backdrop-filter: blur(3px);
+    min-height: 100vh;
+}
+
+
+
+.form-control.customized {
+    font-size: 14px;
+}
+input.form-control.customized {
+    padding: 1.5rem 10px;
+
+}
+
+
+form .form-group label {
+    font-family: "Nunito";
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+
+
+
+.pagination {
+    svg { width: 20px;}
+    span[aria-current="page"] span {
+        background-color: $mainColor !important;
+        color: #fff !important;
+        font-weight: bold;
+    }
+}
+
+
+
+.upper-nav {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+    box-shadow: 1px 1px 15px #f0f0f0;
+    .navbar-brand {
+        font-size: 27px;
+        font-family: "Lobster Two";
+        font-weight: bold;
+        padding-top: 10px;
+        img {
+            width: 70px;
+        }
+    }
+    .logout button, .admin-link {
+        background: none;
+        border: 0;
+        margin: 15px 0;
+        color: rgb(148, 148, 148);
+        font-weight: bold;
+        padding-bottom: 3px;
+        border-bottom: 2px solid rgb(148, 148, 148);
+    }
+    .logout button {
+        color: $mainColor;
+        border-bottom-color: $mainColor;
+    }
+    .admin-link {
+        border: none;
+        padding-left: 15px;
+    }
+}
